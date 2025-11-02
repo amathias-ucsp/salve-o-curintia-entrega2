@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salve o Curintia — Início</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header>
+      <div class="container navbar">
+        <a class="brand" href="index.html">
+          <img
+            src="assets/img/logo-salve-o-curintia.png"
+            alt="Logo Salve o Curintia"
+            width="42"
+            height="42"
+          >
+          <span>Salve o Curintia</span>
+        </a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Abrir menu"
+        >
+          ☰
+        </button>
+        <ul id="primary-nav" class="nav-links" aria-label="Navegação principal">
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li>
+            <a
+              href="projetos.html"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Projetos
+            </a>
+            <ul class="submenu" aria-label="Submenu Projetos">
+              <li><a href="projetos.html#natal">Natal Sem Jogador</a></li>
+              <li><a href="projetos.html#base">Base Fiel</a></li>
+            </ul>
+          </li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <section class="hero">
+        <img
+          src="assets/img/hero.svg"
+          alt="Fundo roxo com gradiente e formas"
+        >
+        <div class="overlay">
+          <div>
+            <h1>“Aqui é Sofrimento, aqui é Fiel!”</h1>
+            <p>
+              Preto e branco na alma, com um toque roxo no coração 💜
+            </p>
+            <div class="actions">
+              <a class="btn btn-primary" href="projetos.html#natal"
+                >Campanha Natal Sem Jogador</a
+              >
+              <a class="btn btn-ghost" href="cadastro.html"
+                >Virar Voluntário Sofredor</a
+              >
+              <button class="btn btn-outline" data-open-modal>Saiba mais</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main id="conteudo" class="container">
+      <section class="cards grid-12">
+        <article class="card col-span-12 md:col-span-6 lg:col-span-3">
+          <h2>Missão</h2>
+          <p>
+            Levar alegria (e um pouquinho de drama) à arquibancada mais sofredora
+            do país.
+          </p>
+          <div class="badges">
+            <span class="badge dark">ONG</span>
+            <span class="badge purple">Humor</span>
+          </div>
+        </article>
+        <article class="card col-span-12 md:col-span-6 lg:col-span-3">
+          <h2>Projetos</h2>
+          <p>
+            Do Natal Sem Jogador à Base Fiel — iniciativas para engajar e rir
+            junto.
+          </p>
+          <div class="badges">
+            <span class="badge">Ação Social</span>
+            <span class="badge purple">Campanhas</span>
+          </div>
+        </article>
+        <article class="card col-span-12 md:col-span-6 lg:col-span-3">
+          <h2>Transparência</h2>
+          <p>
+            Prestação de contas que até o VAR aprova. Sem impedimentos.
+          </p>
+          <div class="badges">
+            <span class="badge">Relatórios</span>
+            <span class="badge dark">Público</span>
+          </div>
+        </article>
+        <article class="card col-span-12 md:col-span-6 lg:col-span-3">
+          <h2>Participe</h2>
+          <p>
+            Seja doador, voluntário ou torcedor de sofá — todo apoio conta.
+          </p>
+          <a class="btn btn-primary" href="cadastro.html">Quero ajudar</a>
+        </article>
+      </section>
+      <section class="mt-4">
+        <div class="alert success">
+          Inscrições abertas para a campanha “Natal Sem Jogador”.
+        </div>
+      </section>
+    </main>
+    <div class="toast" role="status" aria-live="polite">
+      Bem-vindo à Salve o Curintia!
+    </div>
+    <div class="modal-backdrop" aria-hidden="true">
+      <div
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <div class="modal-header">
+          <h3 id="modal-title">Sobre a Salve o Curintia</h3>
+          <button class="modal-close" aria-label="Fechar">Fechar</button>
+        </div>
+        <p>
+          Uma ONG fictícia, humorística e responsável — preto e branco com
+          toques roxos 💜.
+        </p>
+      </div>
+    </div>
+    <footer id="contato">
+      <div class="container">
+        <p>&copy; 2025 Salve o Curintia — ONG fictícia. contato@salveocurintia.org</p>
+      </div>
+    </footer>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

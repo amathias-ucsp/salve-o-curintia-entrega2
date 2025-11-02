@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salve o Curintia — Projetos</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header>
+      <div class="container navbar">
+        <a class="brand" href="index.html">
+          <img
+            src="assets/img/logo-salve-o-curintia.png"
+            alt="Logo Salve o Curintia"
+            width="42"
+            height="42"
+          >
+          <span>Salve o Curintia</span>
+        </a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Abrir menu"
+        >
+          ☰
+        </button>
+        <ul id="primary-nav" class="nav-links" aria-label="Navegação principal">
+          <li><a href="index.html">Início</a></li>
+          <li>
+            <a
+              href="projetos.html"
+              aria-current="page"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Projetos
+            </a>
+            <ul class="submenu" aria-label="Submenu Projetos">
+              <li><a href="projetos.html#natal">Natal Sem Jogador</a></li>
+              <li><a href="projetos.html#base">Base Fiel</a></li>
+            </ul>
+          </li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </header>
+    <main id="conteudo" class="container">
+      <header class="mt-3">
+        <h1>Projetos Sociais</h1>
+        <p>Conheça e apoie as campanhas que movem nossa arquibancada.</p>
+      </header>
+      <section class="grid-12 cards">
+        <article class="card col-span-12 md:col-span-6" id="natal">
+          <h2>Natal Sem Jogador</h2>
+          <p>
+            Campanha sazonal para levar cestas básicas, brinquedos e piadas ruins.
+          </p>
+          <div class="badges">
+            <span class="badge">Natal</span>
+            <span class="badge purple">Famílias</span>
+            <span class="badge dark">2025</span>
+          </div>
+          <a class="btn btn-primary" href="cadastro.html">Quero ajudar</a>
+        </article>
+        <article class="card col-span-12 md:col-span-6" id="base">
+          <h2>Base Fiel</h2>
+          <p>
+            Oficinas para a molecada: cidadania, esporte e resiliência (muita!).
+          </p>
+          <div class="badges">
+            <span class="badge">Juventude</span>
+            <span class="badge purple">Esporte</span>
+          </div>
+          <a class="btn btn-primary" href="cadastro.html">Ser voluntário</a>
+        </article>
+      </section>
+    </main>
+    <footer id="contato">
+      <div class="container">
+        <p>&copy; 2025 Salve o Curintia — ONG fictícia.</p>
+      </div>
+    </footer>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
